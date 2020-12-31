@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Crypto Landing Page</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <div class="content-block">
+        <div class="header-top">
+          <a href="#">
+            <img src="assets/logo.svg" alt="logo" class="logo">
+          </a>
+          <nav class="header-nav">
+            <ul class="header-ul">
+              <li class="header-li"><a href="#about">About</a></li>
+              <li class="header-li"><a href="#products">Products</a></li>
+              <li class="header-li"><a href="#rate">Rate</a></li>
+              <li class="header-li"><a href="#support">Support</a></li>
+            </ul>
+          </nav>
+          <button class="mobile-menu-button">
+
+          </button>
+        </div>
+
+        <div class="header-slogan">
+          <h1>Buy and Sell Cryptos easier than ever</h1>
+          <h3>With our new finance app, you will ever be on track of all transactions in a smart and easy way.</h3>
+        </div>
+        <img class="header-picture" src="assets/header-picture.png" alt="background picture">
+      </div>
+    </header>
+
+    <section id="about" class="welcome-block">
+      <h2>WELCOME TO CRYPTO</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris auctor imperdiet tincidunt. Nullam nec nulla
+        tortor. Maecenas eros est, tempus sed placerat non, laoreet vitae diam. Aenean eu pretium risus. Pellentesque
+        vel
+        lorem tempus, aliquet justo eleifend, commodo nunc. Aliquam sed libero malesuada, venenatis augue in, ornare
+        lectus. Praesent convallis luctus risus, nec iaculis lectus luctus nec. Suspendisse ut pharetra sapien. Donec
+        mi
+        enim, auctor eu semper id, tincidunt a est. Donec justo arcu, rutrum porta urna in, interdum pulvinar ante.
+        Praesent a elementum augue.</p>
+    </section>
+
+    <section id="products" class="browse-block">
+      <div class="content-block">
+        <img src="assets/dots-block.svg" alt="background" class="dots-background">
+        <h2>Browse through a range of our crypto Products.</h2>
+        <img src="assets/browse-picture1.png" alt="crypto-image" class="browse-picture1">
+        <img src="assets/browse-picture2.png" alt="crypto-image" class="browse-picture2">
+        <a class="more-link" href="#">View More</a>
+      </div>
+    </section>
+
+    <section id="rate" class="graph-block">
+      <div class="content-block">
+        <img class="graph-dots" src="assets/dots-block.svg" alt="background">
+        <div class="graph-text">
+          <h2>See a graphical representation of your finances via our crypto chart</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque eius sequi, ea ad recusandae minus sint
+            molestias! Id, sint a?</p>
+          <a class="more-link" href="#">View More</a>
+        </div>
+        <img class="graph-picture" src="assets/graph-picture.png" alt="graph">
+      </div>
+    </section>
+
+    <section id="support" class="wallets-block">
+      <img class="bitcoin-logo" src="assets/bitcoin-letter.svg" alt="bitcoin-logo">
+      <div class="content-block">
+        <img class="wallet-dots" src="assets/dots-block.svg" alt="background">
+        <img class="wallet-picture" src="assets/wallet-picture.png" alt="wallet-background">
+        <div class="wallet-text">
+          <h2>Manage Crypto Wallets</h2>
+          <p>Manage your digital or traditional money crypto wallets.</p>
+          <a class="more-link" href="#">View More</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="table-block">
+      <div class="content-block">
+        <table>
+          <thead>
+            <tr>
+              <th class="id-cell">ID</th>
+              <th class="name-cell">Name</th>
+              <th class="symbol-cell">Symbol</th>
+              <th class="price-cell">Price in USD</th>
+            </tr>
+          </thead>
+          <tbody id="tableBody">
+
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <footer>
+      <div class="content-block">
+        <div class="footer-top">
+          <div class="footer-block">
+            <div class="contact-us">Contact Us</div>
+            <ul class="social-links-list">
+              <li><a href="#" class="telegram-icon"></a></li>
+              <li><a href="#" class="twitter-icon"></a></li>
+              <li><a href="#" class="facebook-icon"></a></li>
+            </ul>
+          </div>
+          <div class="footer-block">
+            <form id="email-form" class="email-form">
+              <label for="email-input">Get Updates from us</label>
+              <input name="emailInput" placeholder="Type Email address" class="email-input" type="text"
+                id="email-input">
+              <input class="submit-input" type="submit" value="Send">
+            </form>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <div class="footer-block">
+            <a href="#">About Us</a>
+            <a href="#">Contact Us</a>
+          </div>
+          <div class="footer-block">
+            <a href="#">FAQ</a>
+            <a id="backToTop" href="#">Back to top</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <div class="back-to-top-button hidden"></div>
+  <div class="mobile-menu">
+    <a class="mobile-menu-link" href="#about">About</a>
+    <a class="mobile-menu-link" href="#products">Products</a>
+    <a class="mobile-menu-link" href="#rate">Rate</a>
+    <a class="mobile-menu-link" href="#support">Support</a>
+  </div>
+  <script src="js/main.js" type="text/javascript"></script>
+</body>
+
+</html>
